@@ -1,0 +1,65 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+ <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+     aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+     <div class="modal-dialog modal-xl" role="document">
+         <div class="modal-content">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                         class="fas fa-times"></i></span></button>
+             <div class="modal-body text-center">
+                 <div class="container">
+                     <div class="row justify-content-center">
+                         <div class="col-lg-8">
+                             <!-- Portfolio Modal - Title-->
+                             <h2 class="portfolio-modal-title text-secondary mb-0">{{ post.title }}</h2>
+                             <!-- Icon Divider-->
+                             <div class="divider-custom">
+                                 <div class="divider-custom-line"></div>
+                                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                 <div class="divider-custom-line"></div>
+                             </div>
+                             <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                 src="img/portfolio/{{ post.img }}" alt="" />
+                             <!-- Portfolio Modal - Text-->
+                             {% if post.description %}
+                             <p class="mb-5">{{ post.description }}</p>
+                             {% endif %}
+
+                             <ul class="list-inline item-details">
+                                 {% if post.client %}
+                                 <li>Client:
+                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                     </strong>
+                                 </li>
+                                 {% endif %}
+                                 {% if post.project-date %}
+                                 <li>Date:
+                                     <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                     </strong>
+                                 </li>
+                                 {% endif %}
+                                 {% if post.category %}
+                                 <li>Service:
+                                     <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                     </strong>
+                                 </li>
+                                 {% endif %}
+                             </ul>
+                             <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                     class="fas fa-times fa-fw"></i>Close Window</button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+
+
+
+
+
+
+
+ {% endfor %}
