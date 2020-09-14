@@ -9,12 +9,9 @@
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
         </div>
-
         <div class="row justify-content-center">
-
             {% for post in site.posts %}
-
-            <div class="col-md-6 col-lg-4 mb-5">
+            <div class="col-md-4 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal"
                     data-target="#portfolioModal-{{ post.modal-id }}">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -22,7 +19,7 @@
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                    <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                 </div>
             </div>
             {% endfor %}

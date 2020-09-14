@@ -8,20 +8,20 @@ skills: "Technology- Dev Ops - Go To Person - Customer Experience "
 meta_author: Dowling Regan
 
 # Google webmaster tools
-google_verify:
+# google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# bing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: disque
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# disqus_shortname: regan
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -33,12 +33,14 @@ color:
 # Footer settings
 footer:
   copyright: Mr. R Dowling
-  location: Location
+  location: New Zealand Dunedin
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: github
+    url: http://github.com/regan3765
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
@@ -47,13 +49,11 @@ social:
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
