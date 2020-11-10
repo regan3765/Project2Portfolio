@@ -1,0 +1,16 @@
+I"_<p>Updating gitlab tho we aren’t using this for service for the BIT like we use to I thought it would be a good idea to update since it hadn’t been updated this year at all which is why i had to update gitlab a few times as the latest version couldn’t be updated directly I had to do it in stages.</p>
+
+<p><img src="img/gitlab/gitlab.JPG" alt="alt text" style="width: 400px" />
+Gitlab-runner errors this is why i decided to update the system</p>
+
+<p><img src="img/gitlab/gitlab1.JPG" alt="alt text" style="width: 800px" />
+I am on the  gitlab server and I’m also looking at GitLab docker Images</p>
+
+<p><img src="img/gitlab/gitlabupdate2.png" alt="alt text" style="width: 800px" />
+I found this to be able to do my upgrades in stages and i stuck to it to be able to do the updates.</p>
+
+<p><img src="img/gitlab/gitlabupdate1.png" alt="alt text" style="width: 800px" />
+<img src="img/gitlab/gitlabupdate3.png" alt="alt text" style="width: 800px" />
+updating gitlab using ‘docker-compose pull’ and then ‘docker-compose up -d’ which i had to do a few times changing the image each time to a newer one</p>
+
+:ET

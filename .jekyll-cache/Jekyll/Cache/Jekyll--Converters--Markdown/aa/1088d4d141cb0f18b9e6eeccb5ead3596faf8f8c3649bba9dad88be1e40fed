@@ -1,0 +1,18 @@
+I"ì<p>The Web08 server is located in F Block and is a production server running windows server 2016. <br />I Had to install a package manager because the help site deploys from hugo, there are other ways we could upload this site to the web, but this is what it uses.</p>
+
+<p><img src="img/helpsite/deploy2.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/helpsite/deploy3.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/helpsite/deploy4.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/helpsite/deploy9.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/helpsite/deploy10.png" alt="alt-image" style="width: 800px" /></p>
+
+<p>So on this server i had to install git and Hugo and to install hugo you need to install chocolaty a windows package manager, for the help site to be served</p>
+
+<p><img src="img/helpsite/deploy6.png" alt="alt-image" style="width: 800px" /> 
+This is the helpsite being running locally through hugo to make sure that it works 
+<img src="img/helpsite/deploy7.png" alt="alt-image" style="width: 800px" /> 
+setting up the server to ip address and pot number
+<img src="img/helpsite/deploy8.png" alt="alt-image" style="width: 800px" /> 
+Shows the support site help.ict.op.ac.nz on the ip address</p>
+
+:ET

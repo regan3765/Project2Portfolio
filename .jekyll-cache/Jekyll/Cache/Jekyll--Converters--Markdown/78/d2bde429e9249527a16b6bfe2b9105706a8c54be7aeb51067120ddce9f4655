@@ -1,0 +1,17 @@
+I"0<p>I was trying to stop the alerts that where coming from the Nagios server as i thing there were a lot coming in but can’t remember the frequency but they became annoying.</p>
+
+<p>Updating the puppet module so that there are no errors show when the puppet ask for updates from the puppet master.</p>
+
+<p>I can’t remember why i was trying to pull the puppet master exactly but</p>
+
+<p><img src="img/puppet/puppetProblem3.png" alt="alt text" style="width: 800px" />
+This is the error i was getting which suggested that it was expecting a ‘}’</p>
+
+<p><img src="img/puppet/puppetProblem2.png" alt="alt text" style="width: 800px" />
+Here is the line number from the puppet master and there is a ‘}’ missing so i edited it in vim</p>
+
+<!-- ![alt text]( img/puppet/puppetProblem4.png ){: style="width: 800px"} -->
+<!-- ![alt text]( img/puppet/puppetProblem5.png ){: style="width: 800px"} -->
+<p><img src="img/puppet/puppetProblem6.png" alt="alt text" style="width: 800px" />
+Here is the puppet pulling from the puppet master and it completed without any errors.</p>
+:ET
