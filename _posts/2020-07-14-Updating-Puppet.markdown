@@ -18,7 +18,7 @@ Updating the puppet module so that there are no errors show when the puppet ask 
 I can't remember why i was trying to pull the puppet master exactly but
 
 
-![alt text]( img/puppet/PuppetProblem3.png ){: style="width: 800px"}
+![alt text]( img/puppet/puppetProblem3.png ){: style="width: 800px"}
 This is the error i was getting which suggested that it was expecting a '}'
 
 ![alt text]( img/puppet/puppetProblem2.png ){: style="width: 800px"}
