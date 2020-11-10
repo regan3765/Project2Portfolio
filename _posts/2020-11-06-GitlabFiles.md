@@ -5,6 +5,9 @@ date: 2020-07-15
 img: searching.png
 alt: image-alt
 description: Getting files for Grayson's Project Teams Mobile app
+project-date: 
+client:
+category:
 ---
 
 So as part of the auditing and finding out what systems needs to be shut down and one of those system's is gitlab that we host upstairs in D block which in our time here has become more and more of a nuisance and has not been used by the lecture's for at least a year now and they are using teams and the github class rooms as it is more reliable and more easier to use.

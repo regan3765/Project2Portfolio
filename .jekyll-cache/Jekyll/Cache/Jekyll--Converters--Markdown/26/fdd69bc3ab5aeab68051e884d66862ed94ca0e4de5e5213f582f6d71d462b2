@@ -1,0 +1,23 @@
+I"�<p>This job was created by rob for us to look through and find out all the services that are running on our servers upstairs.</p>
+
+<p>Scott and Jae went upstairs to have a look at the servers where we connected a monitor to see what was going on and to login. We then found that we could access it on the local ip address’s (10.118.27.140 and 10.118.27.141).</p>
+
+<p>We then needed to get the password, which we got from Rob and also they might be located on Rob’s github account which we have access with itintern account, along with other passwords in there.</p>
+
+<p>Scott then made up a spread sheet and then contacted the lectures to find out what servers are being used and need to be retained till they migration</p>
+
+<p>I also knew that there were websites being hosted like the aviation insurance website which is a live website that should have been shifted else where, not on our development servers.</p>
+
+<p>One service from the serve that we can’t get access to is the vcsa.staging.op-bit.nz as this is part of the vsphere to manage the servers</p>
+
+<p><img src="img/audit/DNS.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/docker-webServer.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/server01.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/server02.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/.pngserverFarm" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/.png" alt="alt-image" style="width: 800px" /> 
+<img src="img/audit/.png" alt="alt-image" style="width: 800px" /></p>
+
+:ET

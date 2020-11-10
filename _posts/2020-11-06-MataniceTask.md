@@ -1,10 +1,14 @@
 ---
-title: Maintenance For Rob
 layout: default
 modal-id: 12
+title: Maintenance For Rob
 date: 2020-11-06 
 img: pcMaintenance.png
-alt-img: alt-image
+alt: alt-image
+project-date: 
+client:
+category:
+description: Maintenance on lab computers
 ---
 
 This is checking the lab computers in D312 where first years have to do maintenance on PC like installing cpu's, memory, power supplies, installing operating systems.

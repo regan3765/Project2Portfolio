@@ -4,7 +4,10 @@ modal-id: 1
 date: 2020-07-15
 img: certs/ssl-certificate-icon.jpg
 alt: image-alt
-description: Updating certs 
+description: Updating the Web certs 
+project-date: 
+client:
+category:
 ---
 
 Updating the certs with the new Certs that we got from Rob 
