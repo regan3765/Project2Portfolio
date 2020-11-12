@@ -1,0 +1,35 @@
+I"l	<p>Updating the certs with the new Certs that we got from Rob 
+we had to place the certs in the correct place in each of our servers that need them</p>
+
+<p>I had change the configuration for the gitlab pages as the certs bought by rob didn’t include the *.gitlab.op-bit.nz domain. 
+I was able to get a three month free certificate from lets encrypt. To do this you have to have access to the azure op-bit.nz DNZ and in the record change the _acme-challenge TXT with the new TXT that the bot gives you before you continue or it will fail. so i just clicked on the _acme-challenge and it takes you to a new page and you copy and past the new code into the value box that has the old record. Hit the save button and its all done. Continuing with the lets-encrypt i followed the wiki and its pretty straight forward.</p>
+
+<p>I didn’t use the certbot from our gitlab just the generic one from apt install.</p>
+
+<p>The certs then were in the /etc/letsencrypt folder</p>
+
+<p>I was looking through some of the serves specifically anything that would help for me find a soulution certs 
+<img src="img/certs/cert1.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert2.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert4.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert6.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert7.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert8.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert9.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert10.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert13.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert17.png" alt="alt text" style="width: 800px" /></p>
+
+<p><img src="img/certs/cert14.png" alt="alt text" style="width: 800px" />
+Restarting the docker-compose</p>
+
+<p><img src="img/certs/cert15.png" alt="alt text" style="width: 800px" /></p>
+
+<p><img src="img/certs/cert16.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert18.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert19.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert20.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert21.png" alt="alt text" style="width: 800px" />
+<img src="img/certs/cert22.png" alt="alt text" style="width: 800px" /></p>
+
+:ET

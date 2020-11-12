@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2020-07-15
+date: 2020-07-08
 img: certs/ssl-certificate-icon.jpg
 alt: image-alt
 description: Updating the Web certs 
@@ -16,12 +16,14 @@ we had to place the certs in the correct place in each of our servers that need 
 I had change the configuration for the gitlab pages as the certs bought by rob didn't include the *.gitlab.op-bit.nz domain. 
 I was able to get a three month free certificate from lets encrypt. To do this you have to have access to the azure op-bit.nz DNZ and in the record change the _acme-challenge TXT with the new TXT that the bot gives you before you continue or it will fail. so i just clicked on the _acme-challenge and it takes you to a new page and you copy and past the new code into the value box that has the old record. Hit the save button and its all done. Continuing with the lets-encrypt i followed the wiki and its pretty straight forward.
 
-I didn't use the certbot from our gitlab just the generic one from apt install.
+I didn't use the certChbot from our gitlab just the generic one from apt install.
 
-The certs then were in the /etc/letsencrypt folder 
+The certs then were in the /etc/letsencrypt folder you can use sftp to send them to yourself on kate or use a windows program mobaxterm which you can see files and directories on the side bar and is also easy to copy them to the windows pc
 
 
 
+
+I was looking through some of the serves specifically anything that would help for me find a solution to get the certs working 
 ![alt text]( img/certs/cert1.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert2.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert4.png ){: style="width: 800px"}
@@ -32,7 +34,7 @@ The certs then were in the /etc/letsencrypt folder
 ![alt text]( img/certs/cert10.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert13.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert17.png ){: style="width: 800px"}
-I was looking through some of the serves specifically anything that would help for the certs 
+
 
 ![alt text]( img/certs/cert14.png ){: style="width: 800px"}
 Restarting the docker-compose 
@@ -44,8 +46,11 @@ Restarting the docker-compose
 ![alt text]( img/certs/cert16.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert18.png ){: style="width: 800px"}
 ![alt text]( img/certs/cert19.png ){: style="width: 800px"}
-![alt text]( img/certs/cert20.png ){: style="width: 800px"}
+
+![alt text]( img/certs/cert20.png ){: style="width: 600px"}
 ![alt text]( img/certs/cert21.png ){: style="width: 800px"}
-![alt text]( img/certs/cert22.png ){: style="width: 800px"}
+
+
+![alt text]( img/certs/cert22.png ){: style="width: 600px"}
 
 
